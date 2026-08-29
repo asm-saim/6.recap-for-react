@@ -39,3 +39,16 @@ const products = [
 
 const newProduct = products.find((product) => product.price === 3000);
 console.log(newProduct);
+
+//includes:
+const string = "Hello there!";
+const newValues = [2, 5, 67, 8, 9];
+
+const search = string.includes("!");
+console.log(search);
+
+if (newValues.includes(5)) {
+  console.log("5 Found");
+} else {
+  console.log("Not Fund");
+}
