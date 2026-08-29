@@ -1,8 +1,8 @@
 // Array Methods: map(), filter(), find(),
 // Array, String methods:  includes()
-// map() - showing the data in the UI in react.
-// filter() - showing the filtered data.
-// find() - find out a specific data.
+// map() - showing the data in the UI in react. ->new array
+// filter() - showing the filtered data. ->new array
+// find() - find out a specific data. -> no array, only matched element or undefined
 // includes() - a data in array exist ot not. Returns boolean result.
 
 //filter:
