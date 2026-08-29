@@ -20,3 +20,22 @@ const names = ["Hakan", "Kamal", "Erbakan"];
 const newnames = names.map((name, index) => {
   console.log(`${index + 1}. ${name} `);
 });
+
+//find method: returns a single product
+const products = [
+  {
+    name: "Bonsai",
+    price: 25000,
+  },
+  {
+    name: "Aquarium",
+    price: 10000,
+  },
+  {
+    name: "Bird Cage",
+    price: 3000,
+  },
+];
+
+const newProduct = products.find((product) => product.price === 3000);
+console.log(newProduct);
