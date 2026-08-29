@@ -12,3 +12,9 @@ console.log(nameChecker);
 const product = "Laptop";
 const productStat = product && "Available product is " + product;
 console.log(productStat);
+
+//Optional Chaining:
+const user = null;
+
+const userName = user?.name;
+console.log(userName);
